@@ -1,0 +1,14 @@
+body{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    color:#fff;
+text-align: center;
+}
+
+main{
+    background-color: #e04c74;
+}
