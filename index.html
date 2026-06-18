@@ -14,9 +14,23 @@
     <main>
     <img src="imagem.png" alt="logotipo conceitual">
         <h2>Meu primeiro post.</h2>
-        <h2>Meu 
         <p>Por Diego Henrique.</p>
         <p>Sejam bem vindos ao meu blog. Vai ser uma viagem muito louca.</p>
-    </main>
+
+    </div>
+    <button>Curtir<span>0<span></button>
+ </main>
 </body>
+<script>
+
+
+const botao = document.querySelector("button");
+botao.addEventListener("click",botaoClicado);
+
+function botaoClicado(){
+    let texto = botao.querySelector("span")
+texto.textContent++;
+}
+</script>
+
 </html>
